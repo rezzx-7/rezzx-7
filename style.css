@@ -390,7 +390,7 @@ padding-top: 9rem;
   border-radius: 50%;
   box-shadow: 0 0 12px hsl(241, 100%, 50%);
   transition: .3s;
-  animation: button 5s infinite; 
+  animation: button 3s infinite; 
 
 }
 

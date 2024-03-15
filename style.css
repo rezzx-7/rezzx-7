@@ -501,18 +501,14 @@ transform: scale(1.2);
 
 /*=============== BUTTON ===============*/
 .start-button-container {
-   /* Adjust as needed */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   margin-top: 0px; /* Adjust as needed */
-  height: 100vh;
 }
 
 .home__button {
-  margin:auto; 
- 
+  margin-left: 680px; /* Adjust the value to shift the button to the right */
 }
+
 
 /*=============== ABOUT ===============*/
 .about__container{
@@ -1368,4 +1364,32 @@ transform: scale(1.2);
   color:white
 }
 }
+
+/* css for ABOUT US */
+.about__img1 {
+  width: 100vw; /* Set width to 100% of viewport width */
+  height: 650px; /* Allow the height to adjust automatically to maintain aspect ratio */
+  display: block; /* Ensure image behaves as a block element */
+}
+.about-sectio1 {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  height: 100vh; /* Adjust as needed */
+}
+
+.about-content1 {
+  width: 100%; /* Adjust as needed */
+  display: center;
+  justify-content: center; /* Horizontal alignment */
+  text-align: center; /* Vertical alignment */
+  padding-left: 250px;
+  padding-right: 200px;
+  font-size: x-large;
+}
+.about__img1{
+  scroll-behavior: smooth;
+}
+
+
 

@@ -501,13 +501,15 @@ transform: scale(1.2);
 
 /*=============== BUTTON ===============*/
 .start-button-container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 0px; /* Adjust as needed */
+  height: 100vh; /* Set height to fill the viewport height */
 }
 
 .home__button {
-  margin-left: 680px; /* Adjust the value to shift the button to the right */
-}
+  margin: auto;}
 
 
 /*=============== ABOUT ===============*/

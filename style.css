@@ -1367,20 +1367,21 @@ transform: scale(1.2);
 }
 }
 
-/* css for ABOUT US */
-.about__img1 {
+/*=================== css for ABOUT US ================*/
+
+.aboutus__img {
   width: 100vw; /* Set width to 100% of viewport width */
   height: 650px; /* Allow the height to adjust automatically to maintain aspect ratio */
   display: block; /* Ensure image behaves as a block element */
 }
-.about-sectio1 {
+.aboutus-sectio {
   display: flex;
   justify-content: center; /* Center the content horizontally */
   align-items: center; /* Center the content vertically */
   height: 100vh; /* Adjust as needed */
 }
 
-.about-content1 {
+.aboutus-content {
   width: 100%; /* Adjust as needed */
   display: center;
   justify-content: center; /* Horizontal alignment */
@@ -1389,9 +1390,6 @@ transform: scale(1.2);
   padding-right: 200px;
   font-size: x-large;
 }
-.about__img1{
+.aboutus__img{
   scroll-behavior: smooth;
 }
-
-
-
